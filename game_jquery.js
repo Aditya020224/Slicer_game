@@ -22,24 +22,24 @@ $(function(){
             $("#scoreValue").html(score);
 
             //show trials left box
-
+           
             $('#trialsleft').show();
             trialsleft=3;
             addhearts();
-
+    
             //hide game over box
             $('#gameOver').hide();
-
+    
             //change button to reset game
             $('#startReset').html('Reset Game')
-
-
+    
+            
             //start action
             startAction();
         }
     });
         //slice a fruit
-        $("#fruit1").mouseover(function () {
+        $("#fruit1").mouseover(function () { 
             score++;// increase score
             $("#scoreValue").html(score);
 
@@ -55,7 +55,7 @@ $(function(){
             //send new fruit
             setTimeout(startAction,500);
         });
-
+     
 
   //functions
 
@@ -102,7 +102,7 @@ $(function(){
                   });
                   //generate random step
                   step= 1 + Math.round(5 * Math.random());//change steps
-
+                  
                   //reduce trials by one
                   trialsleft--;
                   //populate trails left box by one
@@ -122,11 +122,13 @@ $(function(){
       },10);
   }
 
+ 
   //choose random fruits
   function chooseRandom(){
       $('#fruit1').attr('src','images/' + fruits[Math.round(9*Math.random())]+'.png');
   }
-    
+
+ 
    // Stop Action
    function stopAction(){
     clearInterval(action);
@@ -134,5 +136,5 @@ $(function(){
 }
 
 
-    
+
 });
