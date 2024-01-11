@@ -63,7 +63,7 @@ $(function(){
    function addhearts() {
     $('#trialsleft').empty();
     for(i = 0 ; i < trialsleft ; i++){
-        $('#trialsleft').append('<img src="https://raw.githubusercontent.com/Aditya020224/Fruit-Slicer/main/images/wrong.png" , class="life">');
+        $('#trialsleft').append('<img src="https://raw.githubusercontent.com/Aditya020224/Slicer_game/main/images/wrong.png" , class="life">');
     }
 }
 
@@ -124,7 +124,7 @@ $(function(){
 
   //choose random fruits
   function chooseRandom(){
-      $('#fruit1').attr('src','https://raw.githubusercontent.com/Aditya020224/Fruit-Slicer/main/images/' + fruits[Math.round(9*Math.random())]+'.png');
+      $('#fruit1').attr('src','https://raw.githubusercontent.com/Aditya020224/Slicer_game/main/images/' + fruits[Math.round(9*Math.random())]+'.png');
   }
    // Stop Action
    function stopAction(){
