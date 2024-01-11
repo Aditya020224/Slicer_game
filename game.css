@@ -1,7 +1,7 @@
 html{
     height: 100%;
     background: radial-gradient(circle,#fff,rgb(189, 182, 182));
-    background-image: url(https://raw.githubusercontent.com/Aditya020224/Slicer_game/main/images/bg3%20-%20Copy.jpg);
+    background-image: url(./images/bg3\ -\Copy.jpg);
     background-size: cover;
     font-family: cursive, sans-serif;
   }
@@ -41,7 +41,7 @@ html{
       box-shadow: 0px 4px 0px 0px #775012;
   }
   #fruitcontainer{
-      background: url(https://raw.githubusercontent.com/Aditya020224/Slicer_game/main/images/wood-bg2.jpg) ;
+      background: url(./images/wood-bg2.jpg) ;
       background-size: cover;
       width: 650px;
       height: 450px;
@@ -125,4 +125,6 @@ html{
       top: 170px;
       left: 150px;
       z-index: 2;
+
+      /* display: none; */
   }
